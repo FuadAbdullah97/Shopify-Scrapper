@@ -36,7 +36,7 @@ function App() {
         const data = await response.json();
 
         setProducts(data.products)
-        console.log(products)
+        console.log(products.title)
 
 
     }
